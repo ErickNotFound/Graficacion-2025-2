@@ -8,6 +8,7 @@ Cada práctica está organizada en carpetas dentro de la rama principal:
 - **Practica1/** →
 - **Practica2/** →
 - **Practica3/** → Uso de primitivas gráficas en OpenCV.
+- **Practica4/** → Colisión de Círculos con Rebote.
 
 ## 🛠️ Tecnologías utilizadas
 - Lenguaje: Python
