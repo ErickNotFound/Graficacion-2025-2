@@ -9,6 +9,14 @@ Cada práctica está organizada en carpetas dentro de la rama principal:
 - **Practica2/** →
 - **Practica3/** → Uso de primitivas gráficas en OpenCV.
 - **Practica4/** → Colisión de Círculos con Rebote.
+- **Practica5/** → 
+- **Practica6/** → Transformaciones geométricas a dos imagenes.
+- **Practica7/** → 10 figuras utilizando ecuacioens paramétricas.
+- **Practica8/** → Cara con nariz, boca y orejas.
+- **Practica9/** → Serie de fibonacci.
+- **Practica10/** → Mascara con cara en movimiento
+- **Practica11/** → Escalamiento usando Nearest-neighbor interpolation
+- **Practica12/** → Probar Landmarks  
 
 ## 🛠️ Tecnologías utilizadas
 - Lenguaje: Python

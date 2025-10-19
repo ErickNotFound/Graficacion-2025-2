@@ -1,0 +1,1 @@
+# Practica 10: Aplicar una mascara a la cara en movimiento

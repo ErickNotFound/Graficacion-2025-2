@@ -1,0 +1,1 @@
+# Practica 12: Instalar y probar los landmarks de manos y cara de mediapipe
