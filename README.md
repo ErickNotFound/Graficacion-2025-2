@@ -16,7 +16,8 @@ Cada práctica está organizada en carpetas dentro de la rama principal:
 - **Practica9/** → Serie de fibonacci.
 - **Practica10/** → Mascara con cara en movimiento
 - **Practica11/** → Escalamiento usando Nearest-neighbor interpolation
-- **Practica12/** → Probar Landmarks  
+- **Practica12/** → Probar Landmarks
+- **Practica13/** → Calculadora interactiva usando mediapipe.  
 
 ## 🛠️ Tecnologías utilizadas
 - Lenguaje: Python
