@@ -11,17 +11,26 @@ if img is None:
 x, y = img.shape
 # Definir el factor de escala
 scale_x, scale_y = 2, 2
-# Crear una nueva imagen para almacenar el escalado
+
+# Crear nueva imagen vacía
 scaled_img = np.zeros((int(x * scale_y), int(y * scale_x)), dtype=np.uint8)
-# Aplicar el escalado
+
+# escalar la imagen (asignar píxeles)
 for i in range(x):
     for j in range(y):
-                   #orig_x = int(i * scale_y)
-                   #orig_y = int(j * scale_x)
-                   scaled_img[i*2, j*2] = img[i, j]
+        scaled_img[i * scale_y, j * scale_x] = img[i, j]
 
-# Mostrar la imagen original y la escalada
+# Rellenar usando el algoritmo de vecino más cercano
+for i in range(scaled_img.shape[0]):
+    for j in range(scaled_img.shape[1]):
+        if scaled_img[i, j] == 0:  # píxel vacío
+            # Calcular el píxel original más cercano
+            orig_x = int(i / scale_y)
+            orig_y = int(j / scale_x)
+            scaled_img[i, j] = img[orig_x, orig_y]
+
+# Mostrar imágenes
 cv.imshow('Imagen Original', img)
-cv.imshow('Imagen Escalada (modo raw)', scaled_img)
+cv.imshow('Imagen Escalada (Nearest Neighbor)', scaled_img)
 cv.waitKey(0)
 cv.destroyAllWindows()
